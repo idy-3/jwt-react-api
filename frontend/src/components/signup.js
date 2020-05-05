@@ -8,6 +8,7 @@ class Signup extends Component {
       username: "",
       password: "",
       email: "",
+      errors: {}
     };
 
     this.handleChange = this.handleChange.bind(this);
